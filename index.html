@@ -159,7 +159,59 @@
                 <h3 align=center>Reserve a Table</h3>
             </div>
             <div class="col-xs-12 col-sm-9">
-                Form goes here
+                <form class="form-inline">
+                    <div class="col-xs-12 ">
+                        <div class="col-sm-2">
+                            <label><strong>Number of Guests</strong></label>
+                        </div>
+                        <div class="col-sm-10 ">
+                            <div class="radio">
+                            <label class="radio-inline">
+                                <input type="radio" name="guests" id="guests1" value="guests1"> 1
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="guests" id="guests2" value="guests2"> 2
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="guests" id="guests3" value="guests3"> 3
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="guests" id="guests4" value="guests4"> 4
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="guests" id="guests5" value="guests5"> 5
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="guests" id="guests6" value="guests6"> 6
+                            </label>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="col-sm-2">
+                            <label><strong>Date and Time</strong></label>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="form-group has-feedback">
+                                <input type="date" class="form-control" id="reservationdate" placeholder="Date">
+                                <span class="glyphicon glyphicon-calendar form-control-feedback"></span>
+                            </div>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="form-group has-feedback">
+                                <input type="time" class="form-control" id="reservationtime" placeholder="Time">
+                                <span class="glyphicon glyphicon-time form-control-feedback"></span>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="col-xs-2">
+                            <p> </p>
+                        </div>
+                        <div class="col-xs-5">
+                            <button type="submit" class="btn btn-primary">Reserve</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
